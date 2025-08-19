@@ -5,6 +5,9 @@ There are 4 python scripts. The bash script "run_CP_forecast.sh" runs all the py
 When you run the .sh file it creates a directory with today's date with 3 netcdf files: CP_{date}.nc (convective parameters), gfs0p25_t00z_{date}_pl.nc (pressure levels), gfs0p25_t00z_{date}_surface.nc (surface levels). 
 
 Python files:
-1- get_GFS_forecast.py
-2- CP_forecast.py
-3- CP_grafico.py
+
+1 - get_GFS_forecast.py
+
+2 - CP_forecast.py
+
+3 - CP_grafico.py
