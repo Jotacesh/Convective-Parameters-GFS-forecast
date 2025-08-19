@@ -6,8 +6,8 @@ When you run the .sh file it creates a directory with today's date with 3 netcdf
 
 Python files:
 
-1 - get_GFS_forecast.py
+1 - get_GFS_forecast.py :  Download the GFS files from today's date and make the 2 netcdf files. Can set the step and max_time. 
 
-2 - CP_forecast.py
+2 - CP_forecast.py : Computes the convective parameters from the GFS netcdf files and make a Convective Parameter netcdf file.
 
-3 - CP_grafico.py
+3 - CP_grafico.py : Makes the gif animation from the CP netcdf file.
